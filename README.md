@@ -1,14 +1,6 @@
 # Auction System for Jitera
 
-A full stack auction system created using MERN (MongoDB, ExpressJs, NodeJs) Stack
-
-## Table of contents
-
-- [Quick Start](#quick-start)
-- [Technologies](#technologies)
-- [Tests](#tests)
-
-## Quick Start
+A full stack auction system created using MERN (MongoDB, ExpressJs, NodeJs) Stack. It uses JWT for authentication and information exchange.
 
 ### Clone
 
@@ -22,12 +14,9 @@ A full stack auction system created using MERN (MongoDB, ExpressJs, NodeJs) Stac
 npm install
 ```
 
-### Setting up Proccess Environment Variables
-
-- Make a new file with the name .env in the root folder. It should contain values for these 3 variables: `PORT`,`MONGO_URI`,`JWT_SECRET`.
-- If you want to enable image uploading create a Cloudinary account and enter your Cloundinary API key, Cloud Name and API Secret into the variables `API_KEY`,`CLOUD_NAME`,`API_SECRET`. (Optional)
-
 ### Run the application
+
+- Make sure mongodb instance is running. For installation of mongoDB, open [https://www.mongodb.com/docs/manual/installation/](https://www.mongodb.com/docs/manual/installation/)
 
 ```bash
 npm run development
